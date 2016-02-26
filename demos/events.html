@@ -122,20 +122,20 @@
           </div>
           <hr>
           <div class="large-12 columns callbacks">
-            <div><span class="label secondary initialize">on</span>  initialize.owl.carousel</div>
-            <div><span class="label secondary initialized">on</span>  initialized.owl.carousel</div>
-            <div><span class="label secondary resize">on</span>  resize.owl.carousel</div>
-            <div><span class="label secondary resized">on</span>  resized.owl.carousel</div>
-            <div><span class="label secondary refresh">on</span>  refresh.owl.carousel</div>
-            <div><span class="label secondary refreshed">on</span>  refreshed.owl.carousel</div>
-            <div><span class="label secondary update">on</span>  update.owl.carousel</div>
-            <div><span class="label secondary updated">on</span>  updated.owl.carousel</div>
-            <div><span class="label secondary drag">on</span>  drag.owl.carousel</div>
-            <div><span class="label secondary dragged">on</span>  dragged.owl.carousel</div>
-            <div><span class="label secondary translate">on</span>  translate.owl.carousel</div>
-            <div><span class="label secondary translated">on</span>  translated.owl.carousel</div>
-            <div><span class="label secondary to">on</span>  to.owl.carousel</div>
-            <div><span class="label secondary changed">on</span>  changed.owl.carousel</div>
+            <div><span class="label secondary initialize">on</span>  initialize.owl.carousel </div>
+            <div><span class="label secondary initialized">on</span>  initialized.owl.carousel </div>
+            <div><span class="label secondary resize">on</span>  resize.owl.carousel </div>
+            <div><span class="label secondary resized">on</span>  resized.owl.carousel </div>
+            <div><span class="label secondary refresh">on</span>  refresh.owl.carousel </div>
+            <div><span class="label secondary refreshed">on</span>  refreshed.owl.carousel </div>
+            <div><span class="label secondary update">on</span>  update.owl.carousel </div>
+            <div><span class="label secondary updated">on</span>  updated.owl.carousel </div>
+            <div><span class="label secondary drag">on</span>  drag.owl.carousel </div>
+            <div><span class="label secondary dragged">on</span>  dragged.owl.carousel </div>
+            <div><span class="label secondary translate">on</span>  translate.owl.carousel </div>
+            <div><span class="label secondary translated">on</span>  translated.owl.carousel </div>
+            <div><span class="label secondary to">on</span>  to.owl.carousel </div>
+            <div><span class="label secondary changed">on</span>  changed.owl.carousel </div>
           </div>
           <h3 id="overview">Overview</h3>
           <p>Notice that <code>initialize.owl.carousel</code> and <code>initialized.owl.carousel</code> events must be attached before Owl Carousel initialization. This is required only for those two.</p>
@@ -150,7 +150,8 @@
                 'update.owl.carousel updated.owl.carousel ' +
                 'drag.owl.carousel dragged.owl.carousel ' +
                 'translate.owl.carousel translated.owl.carousel ' +
-                'to.owl.carousel changed.owl.carousel', function(e) {
+                'to.owl.carousel changed.owl.carousel',
+                function(e) {
                   $('.' + e.type)
                     .removeClass('secondary')
                     .addClass('success');
